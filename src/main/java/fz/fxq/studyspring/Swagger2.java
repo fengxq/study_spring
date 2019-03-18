@@ -1,4 +1,4 @@
-package fz.fxq.casecore;
+package fz.fxq.studyspring;
 
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;

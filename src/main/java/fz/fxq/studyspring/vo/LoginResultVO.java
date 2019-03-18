@@ -1,4 +1,4 @@
-package fz.fxq.casecore.vo;
+package fz.fxq.studyspring.vo;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -1,6 +1,6 @@
-package fz.fxq.casecore.service;
+package fz.fxq.studyspring.service;
 
-import fz.fxq.casecore.vo.LoginReqVO;
+import fz.fxq.studyspring.vo.LoginReqVO;
 
 public interface LoginService {
 

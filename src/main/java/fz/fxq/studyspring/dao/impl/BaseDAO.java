@@ -1,4 +1,4 @@
-package fz.fxq.casecore.dao.impl;
+package fz.fxq.studyspring.dao.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;

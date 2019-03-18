@@ -1,9 +1,9 @@
-package fz.fxq.casecore.controller;
+package fz.fxq.studyspring.controller;
 
-import fz.fxq.casecore.service.LoginService;
-import fz.fxq.casecore.vo.LoginPropertiesVO;
-import fz.fxq.casecore.vo.LoginReqVO;
-import fz.fxq.casecore.vo.LoginResultVO;
+import fz.fxq.studyspring.service.LoginService;
+import fz.fxq.studyspring.vo.LoginPropertiesVO;
+import fz.fxq.studyspring.vo.LoginReqVO;
+import fz.fxq.studyspring.vo.LoginResultVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

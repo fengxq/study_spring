@@ -1,10 +1,10 @@
-package fz.fxq.casecore.service.impl;
+package fz.fxq.studyspring.service.impl;
 
-import fz.fxq.casecore.dao.LoginDAO;
-import fz.fxq.casecore.mapper.LoginMapper;
-import fz.fxq.casecore.po.UserPO;
-import fz.fxq.casecore.service.LoginService;
-import fz.fxq.casecore.vo.LoginReqVO;
+import fz.fxq.studyspring.dao.LoginDAO;
+import fz.fxq.studyspring.mapper.LoginMapper;
+import fz.fxq.studyspring.po.UserPO;
+import fz.fxq.studyspring.service.LoginService;
+import fz.fxq.studyspring.vo.LoginReqVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

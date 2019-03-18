@@ -1,4 +1,4 @@
-package fz.fxq.casecore.po;
+package fz.fxq.studyspring.po;
 
 public class UserPO {
     private String userID;
