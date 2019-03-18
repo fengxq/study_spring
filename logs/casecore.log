@@ -1,0 +1,415 @@
+2019-03-18 11:47:06.133  INFO 11384 --- [main] fz.fxq.casecore.CasecoreApplication      : Starting CasecoreApplication on DESKTOP-S74CRI5 with PID 11384 (D:\IdeaWorkspace\casecore\target\classes started by Administrator in D:\IdeaWorkspace\casecore)
+2019-03-18 11:47:06.137  INFO 11384 --- [main] fz.fxq.casecore.CasecoreApplication      : No active profile set, falling back to default profiles: default
+2019-03-18 11:47:07.988  INFO 11384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-18 11:47:07.993  INFO 11384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 11:47:08.074  INFO 11384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2019-03-18 11:47:08.468  INFO 11384 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2340077c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 11:47:08.562  INFO 11384 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a2c054ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 11:47:08.877  INFO 11384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-18 11:47:08.899  INFO 11384 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 11:47:08.900  INFO 11384 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-18 11:47:08.907  INFO 11384 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_191\bin;"D:\Program Files\Java\jdk1.8.0_191\jre\bin;";D:\Program Files\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\nodejs;;.]
+2019-03-18 11:47:09.041  INFO 11384 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-18 11:47:09.042  INFO 11384 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2837 ms
+2019-03-18 11:47:10.104  INFO 11384 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-18 11:47:10.427  INFO 11384 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-18 11:47:10.441  INFO 11384 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-03-18 11:47:10.450  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-18 11:47:10.453  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.456  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-03-18 11:47:10.458  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.458  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-03-18 11:47:10.459  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginMybatis was 用户登录
+2019-03-18 11:47:10.459  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: loginMybatis belongs to groups: [[ResourceGroup{groupName='用户登录', position=0, controller=fz.fxq.casecore.controller.LoginController}]] 
+2019-03-18 11:47:10.460  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginOracle was 用户登录
+2019-03-18 11:47:10.460  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: loginOracle belongs to groups: [[ResourceGroup{groupName='用户登录', position=0, controller=fz.fxq.casecore.controller.LoginController}]] 
+2019-03-18 11:47:10.460  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginRedis was 用户登录
+2019-03-18 11:47:10.460  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: loginRedis belongs to groups: [[ResourceGroup{groupName='用户登录', position=0, controller=fz.fxq.casecore.controller.LoginController}]] 
+2019-03-18 11:47:10.466  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/用户登录 Description: 用户登录 Position: 0
+2019-03-18 11:47:10.468  INFO 11384 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2019-03-18 11:47:10.489  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 11:47:10.489  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 11:47:10.495  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 11:47:10.495  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 11:47:10.499  INFO 11384 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.499  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.507  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.510  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.514  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.515  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.515  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.516  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.517  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.517  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.518  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.519  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.520  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.520  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.521  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.522  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.523  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.523  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 11:47:10.527  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.528  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.528  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.529  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.563  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.563  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.564  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.564  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 11:47:10.564  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-03-18 11:47:10.565  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-03-18 11:47:10.567  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-03-18 11:47:10.567  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-03-18 11:47:10.567  INFO 11384 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.568  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.568  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.569  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.570  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.570  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.571  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.571  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.572  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.572  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.572  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.573  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.574  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.574  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.575  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.575  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.576  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.577  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 11:47:10.589  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.589  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.589  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.589  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.595  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.595  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.595  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.595  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.595  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.596  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.596  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.596  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.597  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.597  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.597  INFO 11384 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.597  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.597  INFO 11384 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /login/submit/mybatis.fz.fxq.casecore.controller.LoginController.loginMybatis.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.597  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /login/submit/mybatis.fz.fxq.casecore.controller.LoginController.loginMybatis.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.602  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginMybatis was 用户登录
+2019-03-18 11:47:10.603  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginMybatis was 用户登录
+2019-03-18 11:47:10.606  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.606  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /login/submit/oracle.fz.fxq.casecore.controller.LoginController.loginOracle.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.607  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /login/submit/oracle.fz.fxq.casecore.controller.LoginController.loginOracle.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.608  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginOracle was 用户登录
+2019-03-18 11:47:10.609  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginOracle was 用户登录
+2019-03-18 11:47:10.610  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.610  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.610  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.610  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 11:47:10.611  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.611  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.611  INFO 11384 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.611  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 11:47:10.612  INFO 11384 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /login/submit/redis.fz.fxq.casecore.controller.LoginController.loginRedis.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.612  INFO 11384 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /login/submit/redis.fz.fxq.casecore.controller.LoginController.loginRedis.DefaultGenericTypeNamingStrategy
+2019-03-18 11:47:10.613  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginRedis was 用户登录
+2019-03-18 11:47:10.614  INFO 11384 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginRedis was 用户登录
+2019-03-18 11:47:10.655  INFO 11384 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-18 11:47:10.660  INFO 11384 --- [main] fz.fxq.casecore.CasecoreApplication      : Started CasecoreApplication in 5.202 seconds (JVM running for 6.181)
+2019-03-18 11:47:10.664  INFO 11384 --- [main] fz.fxq.casecore.CasecoreApplication      : --------------------------
+2019-03-18 11:47:10.664  INFO 11384 --- [main] fz.fxq.casecore.CasecoreApplication      : ------Start Success-------
+2019-03-18 11:47:10.664  INFO 11384 --- [main] fz.fxq.casecore.CasecoreApplication      : --------------------------
+2019-03-18 11:47:20.008  INFO 11384 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-18 11:47:20.008  INFO 11384 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-03-18 11:47:20.017  INFO 11384 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-03-18 11:47:20.089  INFO 11384 --- [http-nio-8080-exec-2] f.f.casecore.controller.LoginController  : loginOracle,loginReqVO[userId[201806130489234]userPwd[2]]
+2019-03-18 11:47:20.100  INFO 11384 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-03-18 11:47:20.447  INFO 11384 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-03-18 11:47:20.453  INFO 11384 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-03-18 11:47:20.928  INFO 11384 --- [http-nio-8080-exec-2] f.f.c.service.impl.LoginServiceImpl      : userPOList,size[7434]
+2019-03-18 11:47:20.977  INFO 11384 --- [http-nio-8080-exec-2] f.f.c.service.impl.LoginServiceImpl      : userPO,UserName[阮永炽]
+2019-03-18 14:13:00.583  INFO 5916 --- [main] fz.fxq.casecore.CasecoreApplication      : Starting CasecoreApplication on DESKTOP-S74CRI5 with PID 5916 (D:\IdeaWorkspace\casecore\target\classes started by Administrator in D:\IdeaWorkspace\casecore)
+2019-03-18 14:13:00.587  INFO 5916 --- [main] fz.fxq.casecore.CasecoreApplication      : No active profile set, falling back to default profiles: default
+2019-03-18 14:13:01.962  WARN 5916 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[fz.fxq.casecore]' package. Please check your configuration.
+2019-03-18 14:13:02.027  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-18 14:13:02.031  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 14:13:02.063  INFO 5916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-03-18 14:13:02.480  INFO 5916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47304ac2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:13:02.571  INFO 5916 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$c6b097f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:13:02.878  INFO 5916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-18 14:13:02.900  INFO 5916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 14:13:02.901  INFO 5916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-18 14:13:02.907  INFO 5916 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_191\bin;"D:\Program Files\Java\jdk1.8.0_191\jre\bin;";D:\Program Files\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\nodejs;;.]
+2019-03-18 14:13:03.016  INFO 5916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-18 14:13:03.016  INFO 5916 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2379 ms
+2019-03-18 14:13:03.466  WARN 5916 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginServiceImpl': Unsatisfied dependency expressed through field 'loginMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'fz.fxq.casecore.mapper.LoginMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-03-18 14:13:03.483  INFO 5916 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-18 14:13:03.493  INFO 5916 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-18 14:13:03.684 ERROR 5916 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginMapper in fz.fxq.casecore.service.impl.LoginServiceImpl required a bean of type 'fz.fxq.casecore.mapper.LoginMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'fz.fxq.casecore.mapper.LoginMapper' in your configuration.
+
+2019-03-18 14:17:44.666  INFO 10980 --- [main] fz.fxq.casecore.CasecoreApplication      : Starting CasecoreApplication on DESKTOP-S74CRI5 with PID 10980 (D:\IdeaWorkspace\casecore\target\classes started by Administrator in D:\IdeaWorkspace\casecore)
+2019-03-18 14:17:44.670  INFO 10980 --- [main] fz.fxq.casecore.CasecoreApplication      : No active profile set, falling back to default profiles: default
+2019-03-18 14:17:45.897  WARN 10980 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[fz.fxq.casecore]' package. Please check your configuration.
+2019-03-18 14:17:45.949  INFO 10980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-18 14:17:45.952  INFO 10980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 14:17:45.974  INFO 10980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-03-18 14:17:46.356  INFO 10980 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee47edf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:17:46.447  INFO 10980 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6dc83b27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:17:46.739  INFO 10980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-18 14:17:46.760  INFO 10980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 14:17:46.760  INFO 10980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-18 14:17:46.767  INFO 10980 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_191\bin;"D:\Program Files\Java\jdk1.8.0_191\jre\bin;";D:\Program Files\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\nodejs;;.]
+2019-03-18 14:17:46.930  INFO 10980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-18 14:17:46.931  INFO 10980 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2179 ms
+2019-03-18 14:17:47.364  WARN 10980 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginServiceImpl': Unsatisfied dependency expressed through field 'loginMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'fz.fxq.casecore.mapper.LoginMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-03-18 14:17:47.379  INFO 10980 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-18 14:17:47.389  INFO 10980 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-18 14:17:47.476 ERROR 10980 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginMapper in fz.fxq.casecore.service.impl.LoginServiceImpl required a bean of type 'fz.fxq.casecore.mapper.LoginMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'fz.fxq.casecore.mapper.LoginMapper' in your configuration.
+
+2019-03-18 14:24:21.667  INFO 5976 --- [main] fz.fxq.casecore.CasecoreApplication      : Starting CasecoreApplication on DESKTOP-S74CRI5 with PID 5976 (D:\IdeaWorkspace\casecore\target\classes started by Administrator in D:\IdeaWorkspace\casecore)
+2019-03-18 14:24:21.671  INFO 5976 --- [main] fz.fxq.casecore.CasecoreApplication      : No active profile set, falling back to default profiles: default
+2019-03-18 14:24:22.848  INFO 5976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-18 14:24:22.850  INFO 5976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 14:24:22.877  INFO 5976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-03-18 14:24:23.255  INFO 5976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80ecbd9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:24:23.341  INFO 5976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$6d0acd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:24:23.629  INFO 5976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-18 14:24:23.650  INFO 5976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 14:24:23.650  INFO 5976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-18 14:24:23.656  INFO 5976 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_191\bin;"D:\Program Files\Java\jdk1.8.0_191\jre\bin;";D:\Program Files\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\nodejs;;.]
+2019-03-18 14:24:23.775  INFO 5976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-18 14:24:23.775  INFO 5976 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2016 ms
+2019-03-18 14:24:24.129  WARN 5976 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginServiceImpl': Unsatisfied dependency expressed through field 'loginDAO'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'fz.fxq.casecore.dao.LoginDAO' available: expected single matching bean but found 2: loginDAOImpl,loginMapper
+2019-03-18 14:24:24.142  INFO 5976 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-18 14:24:24.168  INFO 5976 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-18 14:24:24.174 ERROR 5976 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginDAO in fz.fxq.casecore.service.impl.LoginServiceImpl required a single bean, but 2 were found:
+	- loginDAOImpl: defined in file [D:\IdeaWorkspace\casecore\target\classes\fz\fxq\casecore\dao\impl\LoginDAOImpl.class]
+	- loginMapper: defined in file [D:\IdeaWorkspace\casecore\target\classes\fz\fxq\casecore\mapper\LoginMapper.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-03-18 14:25:41.163  INFO 10852 --- [main] fz.fxq.casecore.CasecoreApplication      : Starting CasecoreApplication on DESKTOP-S74CRI5 with PID 10852 (D:\IdeaWorkspace\casecore\target\classes started by Administrator in D:\IdeaWorkspace\casecore)
+2019-03-18 14:25:41.168  INFO 10852 --- [main] fz.fxq.casecore.CasecoreApplication      : No active profile set, falling back to default profiles: default
+2019-03-18 14:25:42.445  WARN 10852 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[fz.fxq.casecore]' package. Please check your configuration.
+2019-03-18 14:25:42.498  INFO 10852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-18 14:25:42.501  INFO 10852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 14:25:42.529  INFO 10852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-03-18 14:25:42.948  INFO 10852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2af2b23] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:25:43.046  INFO 10852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$322f7855] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:25:43.360  INFO 10852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-18 14:25:43.382  INFO 10852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 14:25:43.382  INFO 10852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-18 14:25:43.389  INFO 10852 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_191\bin;"D:\Program Files\Java\jdk1.8.0_191\jre\bin;";D:\Program Files\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\nodejs;;.]
+2019-03-18 14:25:43.496  INFO 10852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-18 14:25:43.496  INFO 10852 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2268 ms
+2019-03-18 14:25:43.965  WARN 10852 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginController': Unsatisfied dependency expressed through field 'loginService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginServiceImpl': Unsatisfied dependency expressed through field 'loginMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'fz.fxq.casecore.mapper.LoginMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-03-18 14:25:43.982  INFO 10852 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-03-18 14:25:43.993  INFO 10852 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-18 14:25:44.082 ERROR 10852 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginMapper in fz.fxq.casecore.service.impl.LoginServiceImpl required a bean of type 'fz.fxq.casecore.mapper.LoginMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'fz.fxq.casecore.mapper.LoginMapper' in your configuration.
+
+2019-03-18 14:26:12.781  INFO 12448 --- [main] fz.fxq.casecore.CasecoreApplication      : Starting CasecoreApplication on DESKTOP-S74CRI5 with PID 12448 (D:\IdeaWorkspace\casecore\target\classes started by Administrator in D:\IdeaWorkspace\casecore)
+2019-03-18 14:26:12.786  INFO 12448 --- [main] fz.fxq.casecore.CasecoreApplication      : No active profile set, falling back to default profiles: default
+2019-03-18 14:26:14.057  INFO 12448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-18 14:26:14.059  INFO 12448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-18 14:26:14.081  INFO 12448 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-03-18 14:26:14.461  INFO 12448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c497601] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:26:14.578  INFO 12448 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$fbc9c333] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-18 14:26:14.871  INFO 12448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-03-18 14:26:14.897  INFO 12448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-03-18 14:26:14.897  INFO 12448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-03-18 14:26:14.905  INFO 12448 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\oracle\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_191\bin;"D:\Program Files\Java\jdk1.8.0_191\jre\bin;";D:\Program Files\apache-maven-3.6.0\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\nodejs;;.]
+2019-03-18 14:26:15.024  INFO 12448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-03-18 14:26:15.024  INFO 12448 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2145 ms
+2019-03-18 14:26:16.263  INFO 12448 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-18 14:26:16.580  INFO 12448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-03-18 14:26:16.594  INFO 12448 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2019-03-18 14:26:16.605  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-03-18 14:26:16.608  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.610  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-03-18 14:26:16.612  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.612  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController}]] 
+2019-03-18 14:26:16.614  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginMybatis was 用户登录
+2019-03-18 14:26:16.614  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: loginMybatis belongs to groups: [[ResourceGroup{groupName='用户登录', position=0, controller=fz.fxq.casecore.controller.LoginController}]] 
+2019-03-18 14:26:16.614  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginOracle was 用户登录
+2019-03-18 14:26:16.614  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: loginOracle belongs to groups: [[ResourceGroup{groupName='用户登录', position=0, controller=fz.fxq.casecore.controller.LoginController}]] 
+2019-03-18 14:26:16.615  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginRedis was 用户登录
+2019-03-18 14:26:16.615  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: loginRedis belongs to groups: [[ResourceGroup{groupName='用户登录', position=0, controller=fz.fxq.casecore.controller.LoginController}]] 
+2019-03-18 14:26:16.620  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2019-03-18 14:26:16.622  INFO 12448 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/用户登录 Description: 用户登录 Position: 0
+2019-03-18 14:26:16.642  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 14:26:16.642  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 14:26:16.647  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 14:26:16.647  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2019-03-18 14:26:16.650  INFO 12448 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.650  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.660  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.663  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.666  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.666  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.667  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.668  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.668  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.669  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.670  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.671  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.672  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.673  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.673  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.674  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.675  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.675  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2019-03-18 14:26:16.679  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.679  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.680  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.680  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.714  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.715  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.715  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.715  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2019-03-18 14:26:16.716  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-03-18 14:26:16.716  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-03-18 14:26:16.718  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2019-03-18 14:26:16.718  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2019-03-18 14:26:16.718  INFO 12448 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.719  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.719  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.719  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.720  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.720  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.721  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.721  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.722  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.722  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.723  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.724  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.724  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.725  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.725  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.725  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.726  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.726  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2019-03-18 14:26:16.739  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.739  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.739  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.739  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.745  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.746  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.746  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.746  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.747  INFO 12448 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.747  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.747  INFO 12448 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /login/submit/mybatis.fz.fxq.casecore.controller.LoginController.loginMybatis.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.747  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /login/submit/mybatis.fz.fxq.casecore.controller.LoginController.loginMybatis.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.752  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginMybatis was 用户登录
+2019-03-18 14:26:16.753  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginMybatis was 用户登录
+2019-03-18 14:26:16.756  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.756  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.756  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.756  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.757  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.757  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.757  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.757  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.757  INFO 12448 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /login/submit/oracle.fz.fxq.casecore.controller.LoginController.loginOracle.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.757  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /login/submit/oracle.fz.fxq.casecore.controller.LoginController.loginOracle.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.758  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginOracle was 用户登录
+2019-03-18 14:26:16.759  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginOracle was 用户登录
+2019-03-18 14:26:16.759  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.760  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.760  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.760  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginReqVO(false)
+2019-03-18 14:26:16.760  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.760  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.761  INFO 12448 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.761  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key fz.fxq.casecore.vo.LoginResultVO(true)
+2019-03-18 14:26:16.761  INFO 12448 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /login/submit/redis.fz.fxq.casecore.controller.LoginController.loginRedis.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.761  INFO 12448 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /login/submit/redis.fz.fxq.casecore.controller.LoginController.loginRedis.DefaultGenericTypeNamingStrategy
+2019-03-18 14:26:16.762  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginRedis was 用户登录
+2019-03-18 14:26:16.763  INFO 12448 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method loginRedis was 用户登录
+2019-03-18 14:26:16.814  INFO 12448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-18 14:26:16.823  INFO 12448 --- [main] fz.fxq.casecore.CasecoreApplication      : Started CasecoreApplication in 4.662 seconds (JVM running for 5.578)
+2019-03-18 14:26:16.829  INFO 12448 --- [main] fz.fxq.casecore.CasecoreApplication      : --------------------------
+2019-03-18 14:26:16.830  INFO 12448 --- [main] fz.fxq.casecore.CasecoreApplication      : ------Start Success-------
+2019-03-18 14:26:16.830  INFO 12448 --- [main] fz.fxq.casecore.CasecoreApplication      : --------------------------
