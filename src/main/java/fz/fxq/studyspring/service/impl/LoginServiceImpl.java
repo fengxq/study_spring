@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
@@ -24,6 +25,7 @@ public class LoginServiceImpl implements LoginService {
     LoginDAO loginDAO;
     @Autowired
     LoginMapper loginMapper;
+//    private RestTemplate restTemplate;
 
     @Override
     public long loginRedis(LoginReqVO loginReqVO) {
@@ -42,6 +44,7 @@ public class LoginServiceImpl implements LoginService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public long loginOracle(LoginReqVO loginReqVO) {
         logger.debug("loginOracle");
         long ret = -1;
