@@ -1,4 +1,4 @@
-package fz.fxq.studyspring.vo;
+package fz.fxq.boot.vo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

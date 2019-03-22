@@ -1,25 +1,25 @@
-# study_spring
+# study_springboot
 
 SpringBoot
-
 SpringCore
-
-SpringMVC
-
-Mybatis
-
-Restful
-
-Swagger2
-
-Idea
+SpringBoot
 
 Maven
 
-Git
-
 Redis
-
 Oracle
+
+Transaction
+Restful
+RestTemplate
+RedisTemplate
+Logback
+Cache
+    @Cacheable，@CachePut，@CacheEvict
+@Aspect
+@EnableScheduling @Scheduled
+
+mvn install:install-file -Dfile=D:\ojdbc6\11.2.0\ojdbc6-11.2.0.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar
+
 
 

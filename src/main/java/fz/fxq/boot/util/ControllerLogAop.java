@@ -1,4 +1,4 @@
-package fz.fxq.studyspring.util;
+package fz.fxq.boot.util;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -45,7 +45,7 @@ public class ControllerLogAop {
      * ~ 第五个 * 任意方法
      * ~ .. 匹配任意数量的参数.
      */
-    @Pointcut("execution(public * fz.fxq.studyspring.controller..*.*(..))")
+    @Pointcut("execution(public * fz.fxq.boot.controller..*.*(..))")
     public void executeController() {
     }
 

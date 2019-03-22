@@ -1,10 +1,10 @@
-package fz.fxq.studyspring.service.impl;
+package fz.fxq.boot.service.impl;
 
-import fz.fxq.studyspring.dao.LoginDAO;
-import fz.fxq.studyspring.mapper.LoginMapper;
-import fz.fxq.studyspring.po.UserPO;
-import fz.fxq.studyspring.service.LoginService;
-import fz.fxq.studyspring.vo.LoginReqVO;
+import fz.fxq.boot.dao.LoginDAO;
+import fz.fxq.boot.mapper.LoginMapper;
+import fz.fxq.boot.po.UserPO;
+import fz.fxq.boot.service.LoginService;
+import fz.fxq.boot.vo.LoginReqVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package fz.fxq.studyspring;
+package fz.fxq.boot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class StudySpringApplicationTests {
+public class StudySpringBootApplicationTests {
 
     @Test
     public void contextLoads() {

@@ -1,7 +1,7 @@
-package fz.fxq.studyspring.dao.impl;
+package fz.fxq.boot.dao.impl;
 
-import fz.fxq.studyspring.dao.LoginDAO;
-import fz.fxq.studyspring.po.UserPO;
+import fz.fxq.boot.dao.LoginDAO;
+import fz.fxq.boot.po.UserPO;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.stereotype.Repository;

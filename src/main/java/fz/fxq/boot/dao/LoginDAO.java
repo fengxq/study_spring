@@ -1,6 +1,6 @@
-package fz.fxq.studyspring.dao;
+package fz.fxq.boot.dao;
 
-import fz.fxq.studyspring.po.UserPO;
+import fz.fxq.boot.po.UserPO;
 
 import java.util.List;
 

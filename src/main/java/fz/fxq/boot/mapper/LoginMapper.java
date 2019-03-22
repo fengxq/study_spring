@@ -1,6 +1,6 @@
-package fz.fxq.studyspring.mapper;
+package fz.fxq.boot.mapper;
 
-import fz.fxq.studyspring.po.UserPO;
+import fz.fxq.boot.po.UserPO;
 
 import java.util.List;
 

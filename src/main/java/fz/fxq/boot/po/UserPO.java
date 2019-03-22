@@ -1,4 +1,4 @@
-package fz.fxq.studyspring.po;
+package fz.fxq.boot.po;
 
 public class UserPO {
     private String userID;

@@ -1,24 +1,21 @@
-package fz.fxq.studyspring.controller;
+package fz.fxq.boot.controller;
 
-import fz.fxq.studyspring.service.LoginService;
-import fz.fxq.studyspring.vo.LoginPropertiesVO;
-import fz.fxq.studyspring.vo.LoginReqVO;
-import fz.fxq.studyspring.vo.LoginResultVO;
+import fz.fxq.boot.service.LoginService;
+import fz.fxq.boot.vo.LoginPropertiesVO;
+import fz.fxq.boot.vo.LoginReqVO;
+import fz.fxq.boot.vo.LoginResultVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("login/")
 @Api("用户登录")
-public class LoginController {
+public class LoginRestfulController {
     Logger logger = LoggerFactory.getLogger(this.getClass());
 
     /**
@@ -77,4 +74,5 @@ public class LoginController {
 
         return loginResultVO;
     }
+
 }

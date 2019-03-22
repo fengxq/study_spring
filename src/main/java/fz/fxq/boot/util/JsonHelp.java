@@ -1,4 +1,4 @@
-package fz.fxq.studyspring.util;
+package fz.fxq.boot.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

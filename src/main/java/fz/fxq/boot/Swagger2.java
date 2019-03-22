@@ -1,4 +1,4 @@
-package fz.fxq.studyspring;
+package fz.fxq.boot;
 
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
