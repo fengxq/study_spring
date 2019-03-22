@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("login/")
+@RequestMapping("login/restful")
 @Api("用户登录")
 public class LoginRestfulController {
     Logger logger = LoggerFactory.getLogger(this.getClass());
